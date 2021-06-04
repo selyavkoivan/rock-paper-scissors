@@ -1,0 +1,16 @@
+C:\Users\User\RiderProjects\rock-paper-scissors\rock-paper-scissors\bin\Debug\net5.0\rock-paper-scissors.exe
+C:\Users\User\RiderProjects\rock-paper-scissors\rock-paper-scissors\bin\Debug\net5.0\rock-paper-scissors.deps.json
+C:\Users\User\RiderProjects\rock-paper-scissors\rock-paper-scissors\bin\Debug\net5.0\rock-paper-scissors.runtimeconfig.json
+C:\Users\User\RiderProjects\rock-paper-scissors\rock-paper-scissors\bin\Debug\net5.0\rock-paper-scissors.runtimeconfig.dev.json
+C:\Users\User\RiderProjects\rock-paper-scissors\rock-paper-scissors\bin\Debug\net5.0\rock-paper-scissors.dll
+C:\Users\User\RiderProjects\rock-paper-scissors\rock-paper-scissors\bin\Debug\net5.0\ref\rock-paper-scissors.dll
+C:\Users\User\RiderProjects\rock-paper-scissors\rock-paper-scissors\bin\Debug\net5.0\rock-paper-scissors.pdb
+C:\Users\User\RiderProjects\rock-paper-scissors\rock-paper-scissors\obj\Debug\net5.0\rock-paper-scissors.csproj.AssemblyReference.cache
+C:\Users\User\RiderProjects\rock-paper-scissors\rock-paper-scissors\obj\Debug\net5.0\rock-paper-scissors.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\RiderProjects\rock-paper-scissors\rock-paper-scissors\obj\Debug\net5.0\rock-paper-scissors.AssemblyInfoInputs.cache
+C:\Users\User\RiderProjects\rock-paper-scissors\rock-paper-scissors\obj\Debug\net5.0\rock-paper-scissors.AssemblyInfo.cs
+C:\Users\User\RiderProjects\rock-paper-scissors\rock-paper-scissors\obj\Debug\net5.0\rock-paper-scissors.csproj.CoreCompileInputs.cache
+C:\Users\User\RiderProjects\rock-paper-scissors\rock-paper-scissors\obj\Debug\net5.0\rock-paper-scissors.dll
+C:\Users\User\RiderProjects\rock-paper-scissors\rock-paper-scissors\obj\Debug\net5.0\ref\rock-paper-scissors.dll
+C:\Users\User\RiderProjects\rock-paper-scissors\rock-paper-scissors\obj\Debug\net5.0\rock-paper-scissors.pdb
+C:\Users\User\RiderProjects\rock-paper-scissors\rock-paper-scissors\obj\Debug\net5.0\rock-paper-scissors.genruntimeconfig.cache

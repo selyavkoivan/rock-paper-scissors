@@ -104,11 +104,9 @@ namespace rock_paper_scissors
         private static void Hash(byte[] key, int move)
         {
             var hmac = new HMACSHA256(key);
-           
-            var d = move.ToString();
-            var f = Encoding.Unicode.GetBytes(d);
-            var g = hmac.ComputeHash(f);
-            var hashedMove = Convert.ToBase64String(g);
+            var bytesMove = BitConverter.GetBytes(move);
+            var hashedBytesMove = hmac.ComputeHash(bytesMove);
+            var hashedMove = Convert.ToBase64String(hashedBytesMove);
             Console.WriteLine($"HMAC : {hashedMove}");
         }
     }
