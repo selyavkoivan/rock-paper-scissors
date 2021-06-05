@@ -16,7 +16,7 @@ namespace rock_paper_scissors
             }
             else if (args.Length < 3)
             {
-                Console.WriteLine($"ERROR\nINCORRECT number of arguments\nthe number of arguments MUST BE MORE THAN THREE\nNO\tdotnet run {string.Join(" ", args)}\nYES\tdotnet run rock paper scissors");
+                Console.WriteLine($"ERROR\nINCORRECT number of arguments\nthe number of arguments MUST BE MORE THAN TWO\nNO\tdotnet run {string.Join(" ", args)}\nYES\tdotnet run rock paper scissors");
             }
             else if (args.Length % 2 == 0)
             {
@@ -37,6 +37,10 @@ namespace rock_paper_scissors
             while (true)
             {
                 Console.Clear();
+                
+                var randomMove = MoveMaker(args.Length);
+                var key = GetKey();
+                Hash(key, randomMove);
                 Console.WriteLine("Make a move");
                 for (var i = 0; i < args.Length; i++)
                 {
@@ -51,12 +55,11 @@ namespace rock_paper_scissors
                     switch (choice)
                     {
                         case > 0 when choice <= args.Length:
-                            var randomMove = MoveMaker(args.Length);
-                            var key = GetKey();
+                          
                             Console.WriteLine($"ur move : {args[choice - 1]}");
                             Console.WriteLine($"random move : {args[randomMove]}");
                             Result(choice - 1, randomMove, args.Length);
-                            Hash(key, randomMove);
+                            Console.WriteLine($"HMAC key : {Convert.ToBase64String(key)}");
                             break;
                         case 0:
                             Console.WriteLine("nice to play with u\nhave a nice day");
